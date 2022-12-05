@@ -7,6 +7,5 @@ main.o: main.c myProject.h
 1.o: 1.c myProject.h
 	gcc -c 1.c
 
-clean : 
-	rm edit 1.o main.o
-
+clean:
+	rm 1.o main.o
